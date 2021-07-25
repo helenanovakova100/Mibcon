@@ -1,16 +1,10 @@
-/* ZADANI:
-  Doplň všechny testcasy
-  přidej kroky 
-  přidej assertion (expect)
-*/
+//  Secret password je schovane v HTML (nedaleko inputu pro secret heslo)
+//   Je potreba ho najit a precist. Nevadi, ze neni zobrazene - data tam jsou.
+//   Cislo se generuje kazdym nactenim stranky, nestaci si jej jednou precist a 
+//     a pak ho pouzivat celou dobu. 
+//   Hlasky maji dva stavy - 1) heslo je spravne, 2) heslo je spatne.
 
-/*
-HINT: Secret password je schovane v HTML (nedaleko inputu pro secret heslo)
-  Je potreba ho najit a precist. Nevadi, ze neni zobrazene - data tam jsou.
-  Cislo se generuje kazdym nactenim stranky, nestaci si jej jednou precist a 
-    a pak ho pouzivat celou dobu. 
-  Hlasky maji dva stavy - 1) heslo je spravne, 2) heslo je spatne.
-  Good luck! 
+
 */
 let helpPage = require('../homework/homework3.page')
 
