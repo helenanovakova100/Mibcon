@@ -15,10 +15,10 @@ describe('Test that we can find connection from Prague To Olomouc', () => {
         $('#timetablesModalLink').click()// choose transporation option 
         $('a[href="/vlaky/spojeni/"]').scrollIntoView()
         $('a[href="/vlaky/spojeni/"]').click() // chooses train as a connection
-        $(idos.departureValue).setValue(departure) //set value Of departure 
+        $(idos.departureValue).setValue(departure) //set value of departure 
         $(idos.arrivalValue).setValue(arrival) // set value of arrival  
         $('.submit .btn').click() // click on search button 
-        expect($('p*=Praha')).toHaveTextContaining('Praha') // connection details contain Prague
-        expect($('p*=Olomouc')).toHaveTextContaining('Olomouc') // connection details contain Olomouc  
+        expect($('p*=Praha')).toHaveTextContaining('Praha') // connection details contains Prague
+        expect($('p*=Olomouc')).toHaveTextContaining('Olomouc') // connection details contains Olomouc  
     });
 });
