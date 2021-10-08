@@ -1,4 +1,4 @@
-
+// testing GIT changes 
 // Na přihlaš se na  webu  https://automation.cervik.repl.co/inputs.html
 // Heslo je v HTML, musi se dostat 
 // 1) přihlasit se spravnym heslem
