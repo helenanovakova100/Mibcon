@@ -7,7 +7,7 @@
 
 
 
-*/
+
 let helpPage = require('../homework/homework3.page')
 
 
